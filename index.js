@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = socketIO(server, {
   cors: true,
-  origins: ["localhose:3000"],
+  origins: ["localhost:3000"],
 });
 
 app.use(cors());
